@@ -1,0 +1,22 @@
+.header{
+    text-align: center;
+    background-color:aliceblue;
+    padding: 20px;
+}
+
+img{
+    height: 80%;
+    width: 80%;
+}
+
+#y-axis{
+    height:800px;
+    -webkit-writing-mode: vertical-rl;
+    text-align: center;
+}
+
+#chart-body{
+    border-left-style: solid;
+    border-bottom-style: solid;
+    height: 800px;
+}
