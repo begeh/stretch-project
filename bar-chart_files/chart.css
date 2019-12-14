@@ -20,3 +20,28 @@ img{
     border-bottom-style: solid;
     height: 800px;
 }
+
+#bar1{
+    background-color: red;
+    height:50%;
+    border-left-style:solid;
+    border-left-color: white;
+    border-right-style:solid;
+    border-right-color: white;
+    border-width:20px;
+    position: absolute;
+    bottom:0;
+}
+
+#bar2{
+    background-color: blue;
+    height: 10%;
+    border-left-style:solid;
+    border-left-color: white;
+    border-right-style:solid;
+    border-right-color: white;
+    border-width: 20px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}

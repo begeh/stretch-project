@@ -2,9 +2,9 @@
 <!-- saved from url=(0066)file:///Users/bashiregeh/lighthouse/stretch-project/bar-chart.html -->
 <html class="container-fluid"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <script src="./bar-chart_files/jquery.min.js"></script>
-
 <link rel="stylesheet" href="./bar-chart_files/bootstrap.min.css">
 <link rel="stylesheet" href="./bar-chart_files/chart.css">
+
 </head><body>
     <div class="container-fluid">
     <div class="header">
@@ -14,11 +14,22 @@
     <h1 style="text-align: center;">Bar Chart</h1>
     <div id="chart" class="row">
         <div id="y-axis" class="col-xs-2"><h2 class="axis">Y-Axis</h2> </div>
-        <div class="col-xs-8" id="chart-body"></div>
+        <div class="col-xs-8 column" id="chart-body">
+    <div id="bar1" class="col-xs-6"></div>
+
+    <div id="bar2" class="col-xs-6"></div>
+</div>
     	<div class="col-xs-2"></div>
     	
         
         <div id="x-axis" class="col-xs-12"><h2>X-Axis</h2></div>
     </div>
+    <form>
+        <label>X-Axis Name</label>
+        <input id="x-name" value="X-Axis" type="text">
+        <label>Y-Axis Name</label>
+        <input id="y-name" type="text" value="Y-Axis">
+    </form>
     </div>
+ <script type="text/javascript" src="./bar-chart_files/bar-chart.js"></script>
 </body></html>
