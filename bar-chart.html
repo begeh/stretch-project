@@ -4,14 +4,15 @@
 <script src="./bar-chart_files/jquery.min.js"></script>
 <link rel="stylesheet" href="./bar-chart_files/bootstrap.min.css">
 <link rel="stylesheet" href="./bar-chart_files/chart.css">
+<link rel="stylesheet" href="./bar-chart_files/gist-embed-123720f37c57ce9a8f29de081c38ed61.css"></head><body>
 
-</head><body>
+
     <div class="container-fluid">
     <div class="header">
         <img src="./bar-chart_files/Fotolia_20725516_S.jpg">
     </div>
     
-    <h1 style="text-align: center;">Bar Chart</h1>
+    <h1 id="chart-title" style="text-align: center;">Bar Chart</h1>
     <div id="chart" class="row">
         <div id="y-axis" class="col-xs-2"><h2 class="axis">Y-Axis</h2> </div>
         <div class="col-xs-8 column" id="chart-body">
@@ -29,6 +30,15 @@
         <input id="x-name" value="X-Axis" type="text">
         <label>Y-Axis Name</label>
         <input id="y-name" type="text" value="Y-Axis">
+        <br>
+        <label>Bar Chart Title</label>
+        <input id="chart-name" type="text" value="Bar Chart">
+        <br>
+        <label>Font-Size</label>
+        <input id="font_size" type="text">
+        <label>Font-Color</label>
+        <input id="font_color" type="text">
+    
     </form>
     </div>
  <script type="text/javascript" src="./bar-chart_files/bar-chart.js"></script>
